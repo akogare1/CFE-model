@@ -19,7 +19,7 @@
 
 #### Data Preparation
 
-- We adpot the feature for **THUMOS14** and **ActivityNet-1.3** datasets from ActionFormer repository ([see here](https://github.com/happyharrycn/actionformer_release)). To use these features, please download them from their link and unpack them into the `./data` folder.
+- We adpot the feature for **THUMOS14** and **ActivityNet-1.3** datasets from ActionFormer repository ([see here](https://github.com/happyharrycn/actionformer_release)). To use these functions, please download them from their respective links and create a "data" folder in the current project folder. Then, extract it to the "./data" folder.
 
 #### Started
 
