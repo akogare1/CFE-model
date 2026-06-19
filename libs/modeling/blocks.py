@@ -407,7 +407,7 @@ class CFE(nn.Module):
 
         self.energy_proj = nn.Conv1d(1, 1, 1)
         self.alpha = nn.Parameter(torch.zeros(1))
-
+        self.fusion_weight = nn.Parameter(torch.ones(6))
         self.attn = MaskedMHCA(
             n_embd, n_head,
             n_qx_stride=1, n_kv_stride=1,
